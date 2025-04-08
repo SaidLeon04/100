@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-container">
+            <div class="score-box">Equipo 1: <span id="team1Score">0</span></div>
+            <div class="score-box">Equipo 2: <span id="team2Score">0</span></div>
+        </div>
+        
+        <div class="game-board">
+            <h2 class="board-title">¡Adivina las <span id="numberAnswers"></span> respuesta!</h2>
+            <h4>Categoria: <span id="categoryQuestion"></span></h4><br>
+            <div class="board-content" id="gameQuestion">
+            </div>
+        </div>
+        
+        <div class="answer-container">
+            <div class="answer-slots-1">
+        
+            </div>
+            
+            <div class="answer-slots-2">
+               
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="answerInput" placeholder="Escribe tu respuesta...">
+            <button id="submitAnswer">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
